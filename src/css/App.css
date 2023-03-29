@@ -1,0 +1,149 @@
+body{
+  margin: 0;
+  max-width: 1280px;
+  height: 900px;
+  background-color: #bdc0f3;
+  background-image: linear-gradient(0deg, #bdc0f3 0%, #97D9E1 50%, #063a69 100%);
+  }
+.App{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 50px;
+}
+
+#title{
+ font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  font-size: 1.3rem;
+  text-align: center;
+  margin-top: 10px;
+  background-color: #3498db;  
+  color: white;
+  border-radius: 4px;
+  width: 400px;
+  height: 32px;
+ 
+}
+.feature-1{
+  width: 450px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background-color: white;
+  height: fit-content;
+  margin-top: 20px;
+}
+.list-value{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+  align-items: left;
+}
+.selection {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 30%;
+  height: fit-content;
+  margin: 20px;
+  border-radius: 2px;
+  width: 350px;
+}
+.selection h1{
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 3px;
+  color: white;
+  font-size: 1.3rem;
+  text-align: center;
+  margin-top: 0%;
+  background-color: #3498db;
+  border-radius: 4px;
+  height: 30px;
+}
+.selection ul{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  align-items: center;
+  
+}
+.selection ul li{
+  margin: 4px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 4px;
+  font-weight: normal;
+  letter-spacing: 1px;
+  height: 23px;
+  width: 200px;
+  color: white;
+  background-color: #2980b9;
+}
+
+.distance{
+  width: 350px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-calcular{
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.btn-calcular:hover{
+  background-color: #2980b9;  
+  cursor: pointer;
+}
+.modality{
+   width: 350px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.value{
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  background-color: #3498db;
+  margin: 10px;
+}
+.cost-value
+{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 250px;
+  height: 25px;
+  background-image: linear-gradient( 109.6deg,  rgba(45,116,213,1) 11.2%, rgba(121,137,212,1) 91.2% );  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 2px;
+  color: white;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+
+
